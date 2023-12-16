@@ -68,8 +68,9 @@ if(mysqli_fetch_row($result)==0){
 <p class="incription"> Je n'ai pas de <span><a href="#">compte</a></span>.cree un <span><a href="incription.html">Compte</a></span></p>
 <div align="center">
     <input type="submit" value="se connecter" name="S'inscrire" class="but">
+    <a href="connectionadmin.php"  class="but">administrateur</a>
 </div>
-
+ 
     </form>
     
 </body>
